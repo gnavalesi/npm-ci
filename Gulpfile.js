@@ -3,11 +3,6 @@ var gulp = require('gulp'),
     istanbul = require('gulp-istanbul'),
     coveralls = require('gulp-coveralls');
 
-gulp.task('test', function() {
-	return gulp.src('./test/**/*.js')
-	           .pipe(mocha());
-});
-
 gulp.task('pre-coverage', function () {
 	return gulp.src(['./src/**/*.js'])
 		.pipe(istanbul())
@@ -18,7 +13,7 @@ gulp.task('coverage', ['pre-coverage'], function () {
 	return gulp.src('./test/**/*.js')
 		.pipe(mocha())
 		.pipe(istanbul.writeReports())
-		.pipe(istanbul.enforceThresholds({thresholds: {global: 70}}));
+		.pipe(istanbul.enforceThresholds({thresholds: {global: 80}}));
 });
 
 gulp.task('ci', ['coverage'], function () {
