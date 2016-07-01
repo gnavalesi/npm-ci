@@ -1,8 +1,5 @@
 # NPM + GitHub
 
-* `npm install`
-* `npm install -g gulp-cli`
-
 ## Gulp
 
 Gulp es un build system para javascript que prioriza código por sobre configuración. Existen centenares de plugins destinados a distintas tareas como mover archivos, ejecutar tests, calcular la covertura de los tests, etc...
@@ -44,4 +41,20 @@ _Code Climate_ permite detectar posibles errores en nuestro código. También pe
 
 ### VersionEye ([https://www.versioneye.com](https://www.versioneye.com))
 
+[![Dependency Status](https://www.versioneye.com/user/projects/5775a70d68ee070047f065c0/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5775a70d68ee070047f065c0)
+
 _Version Eye_ analiza las dependencias de nuestro proyecto, detectando nuevas versiones y problemas de seguridad.
+
+## Publicando en npm ([https://www.npmjs.com/](https://www.npmjs.com/))
+
+_(fuente: [https://docs.npmjs.com/getting-started/publishing-npm-packages](https://docs.npmjs.com/))_
+
+Ejecutamos `npm login` para guardar los datos de usuario y luego `npm publish` para publicar el paquete. Podemos ir a [https://www.npmjs.com/package/npm-ci](https://www.npmjs.com/package/npm-ci) para verlo.
+
+Cuando querramos actualizar el paquete, ejecutamos `npm version <tipo>` donde `<tipo>` es el tipo de release, y puede tomar los valores:
+
+* `patch` : (1.0.2 -> 1.0.3)
+* `minor` : (1.0.2 -> 1.1.0)
+* `major` : (1.0.2 -> 2.0.0)
+
+Luego ejecutamos `npm publish` para publicar la actualizacion en _npm_
