@@ -6,12 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.baufest.com:gnavalesi/npm-ci.git"
+  "keywords": [
+    "travis",
+    "test",
+    "coveralls",
+    "versioneye",
+    "codeclimate"
+  ],
+  "homepage": "https://github.com/gnavalesi/npm-ci",
+  "repository": "https://github.com/gnavalesi/npm-ci.git",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnavalesi/npm-ci/issues"
   },
   "author": "",
-  "license": "ISC",
   "devDependencies": {
     "mocha": "~2.5.3",
     "gulp-mocha": "~2.2.0",
