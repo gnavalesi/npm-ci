@@ -2,9 +2,9 @@
 
 ## Gulp
 
-Gulp es un build system para javascript que prioriza código por sobre configuración. Existen centenares de plugins destinados a distintas tareas como mover archivos, ejecutar tests, calcular la covertura de los tests, etc...
+Gulp es un build system para javascript que prioriza código por sobre configuración. Existen centenares de plugins destinados a distintas tareas como mover archivos, ejecutar tests, calcular la cobertura de los tests, etc...
 
-En _Gulpfile.js_ hay 3 tareas configuradas, dedicadas a ejecutar los tests, calcular la covertura y enviar los datos a _Coveralls_ (simil Sonar).
+En _Gulpfile.js_ hay 3 tareas configuradas, dedicadas a ejecutar los tests, calcular la cobertura y enviar los datos a _Coveralls_ (simil Sonar).
 
 ## Servicios de GitHub
 
@@ -31,13 +31,13 @@ Cada vez que se haga push, por cada commit _Travis_ instala el proyecto y ejecut
 
 [![Coverage Status](https://coveralls.io/repos/github/gnavalesi/npm-ci/badge.svg?branch=master)](https://coveralls.io/github/gnavalesi/npm-ci?branch=master)
 
-Ya tenemos configurada la tarea de _Gulp_ que envía los datos de covertura a _Coveralls_ para que los analice. Lo único que tenemos que hacer es ingresar al sitio web y habilitar el análisis para el repositorio.
+Ya tenemos configurada la tarea de _Gulp_ que envía los datos de cobertura a _Coveralls_ para que los analice. Lo único que tenemos que hacer es ingresar al sitio web y habilitar el análisis para el repositorio.
 
 ### Code Climate ([https://codeclimate.com](https://codeclimate.com))
 
 [![Code Climate](https://codeclimate.com/github/gnavalesi/npm-ci/badges/gpa.svg)](https://codeclimate.com/github/gnavalesi/npm-ci)
 
-_Code Climate_ permite detectar posibles errores en nuestro código. También permite el análisis de datos de covertura.
+_Code Climate_ permite detectar posibles errores en nuestro código. También permite el análisis de datos de cobertura.
 
 ### VersionEye ([https://www.versioneye.com](https://www.versioneye.com))
 
