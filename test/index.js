@@ -48,11 +48,11 @@ describe("Division", function() {
 });
 
 describe("Modulo", function() {
-	it("Deberia retornar un resultado correcto al hacer modulo de numeros", function() {
-		assert.equal(2, operations.mod(5, 3));
-	});
+	//it("Deberia retornar un resultado correcto al hacer modulo de numeros", function() {
+	//	assert.equal(2, operations.mod(5, 3));
+	//});
 
-	it("Deberia retornar un resultado correcto al hacer modulo de numeros negativos", function() {
-		assert.equal(-2, operations.mod(-5, 3));
-	});
+	//it("Deberia retornar un resultado correcto al hacer modulo de numeros negativos", function() {
+	//	assert.equal(-2, operations.mod(-5, 3));
+	//});
 });
